@@ -12,3 +12,8 @@ $ brew install node
 * npx
 * prop-types
 * axios
+
+### Movie API
+* github.com/serranoarevalo/yts-proxy
+  * https://yts-proxy.now.sh/list_movies.json
+  * https://yts.mx/api/v2/movie_details.json?movie_id=10
