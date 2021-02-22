@@ -1,0 +1,572 @@
+nohup: ignoring input
+npm WARN npm npm does not support Node.js v10.23.1
+npm WARN npm You should probably upgrade to a newer version of node as we
+npm WARN npm can't make any promises that npm will work with this version.
+npm WARN npm Supported releases of Node.js are the latest release of 4, 6, 7, 8, 9.
+npm WARN npm You can find the latest version at https://nodejs.org/
+
+> movie_app_2020@0.1.0 start /home/pi/git/movie_app_2020
+> react-scripts start
+
+Starting the development server...
+
+Compiled successfully!
+
+The app is running at:
+
+  http://localhost:3000/
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+
+Compiling...
+Compiled with warnings.
+
+Warning in ./src/App.js
+
+/home/pi/git/movie_app_2020/src/App.js
+  2:8  warning  'PropThypes' is defined but never used  no-unused-vars
+
+✖ 1 problem (0 errors, 1 warning)
+
+
+You may use special comments to disable some warnings.
+Use // eslint-disable-next-line to ignore the next line.
+Use /* eslint-disable */ to ignore all warnings in a file.
+Compiling...
+Compiled with warnings.
+
+Warning in ./src/App.js
+
+/home/pi/git/movie_app_2020/src/App.js
+  2:8  warning  'PropThypes' is defined but never used  no-unused-vars
+
+✖ 1 problem (0 errors, 1 warning)
+
+
+You may use special comments to disable some warnings.
+Use // eslint-disable-next-line to ignore the next line.
+Use /* eslint-disable */ to ignore all warnings in a file.
+Compiling...
+Failed to compile.
+
+Error in ./src/App.js
+
+/home/pi/git/movie_app_2020/src/App.js
+   2:8   warning  'PropThypes' is defined but never used  no-unused-vars
+  66:11  error    'PropTypes' is not defined              no-undef
+  67:14  error    'PropTypes' is not defined              no-undef
+  68:13  error    'PropTypes' is not defined              no-undef
+
+✖ 4 problems (3 errors, 1 warning)
+
+
+Compiling...
+Failed to compile.
+
+Error in ./src/App.js
+
+/home/pi/git/movie_app_2020/src/App.js
+   2:8   warning  'PropThypes' is defined but never used  no-unused-vars
+  66:11  error    'PropTypes' is not defined              no-undef
+  67:14  error    'PropTypes' is not defined              no-undef
+  68:13  error    'PropTypes' is not defined              no-undef
+
+✖ 4 problems (3 errors, 1 warning)
+
+
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Failed to compile.
+
+Error in ./src/App.js
+Syntax error: Unexpected token (59:13)
+
+  57 |         <div>
+  58 |             <h1>Hello</h1>
+> 59 |             <!--<Food name="kimchi" something={true} papapapa={['hello', 1, 2, 3, 4, true]} />-->
+     |              ^
+  60 |             {foodILike.map(dish => (<Food key={dish.id} name={dish.name} picture={dish.image} rating={dish.rating}/>))}
+  61 |         </div>
+  62 |     );
+
+ @ ./src/index.js 13:11-27
+
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Failed to compile.
+
+Error in ./src/App.js
+Syntax error: Unexpected token, expected { (9:21)
+
+   7 |     };
+   8 |     
+>  9 |     add = function() => {
+     |                      ^
+  10 |         console.log("add");
+  11 |     }
+  12 |     
+
+ @ ./src/index.js 13:11-27
+
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled with warnings.
+
+Warning in ./src/App.js
+
+/home/pi/git/movie_app_2020/src/App.js
+  10:9  warning  Nested block is redundant  no-lone-blocks
+
+✖ 1 problem (0 errors, 1 warning)
+
+
+You may use special comments to disable some warnings.
+Use // eslint-disable-next-line to ignore the next line.
+Use /* eslint-disable */ to ignore all warnings in a file.
+Compiling...
+Compiled with warnings.
+
+Warning in ./src/App.js
+
+/home/pi/git/movie_app_2020/src/App.js
+  10:9  warning  Nested block is redundant  no-lone-blocks
+  13:9  warning  Nested block is redundant  no-lone-blocks
+
+✖ 2 problems (0 errors, 2 warnings)
+
+
+You may use special comments to disable some warnings.
+Use // eslint-disable-next-line to ignore the next line.
+Use /* eslint-disable */ to ignore all warnings in a file.
+Compiling...
+Compiled with warnings.
+
+Warning in ./src/App.js
+
+/home/pi/git/movie_app_2020/src/App.js
+  10:9  warning  Nested block is redundant  no-lone-blocks
+  13:9  warning  Nested block is redundant  no-lone-blocks
+
+✖ 2 problems (0 errors, 2 warnings)
+
+
+You may use special comments to disable some warnings.
+Use // eslint-disable-next-line to ignore the next line.
+Use /* eslint-disable */ to ignore all warnings in a file.
+Compiling...
+Failed to compile.
+
+Error in ./src/App.js
+Syntax error: this is a reserved word (10:23)
+
+   8 |     
+   9 |     add = () => {
+> 10 |         this.setState({this.state.count += 1});
+     |                        ^
+  11 |     }
+  12 |     minus = () => {
+  13 |         {this.state.count--;}
+
+ @ ./src/index.js 13:11-27
+
+Compiling...
+Failed to compile.
+
+Error in ./src/App.js
+Syntax error: this is a reserved word (10:23)
+
+   8 |     
+   9 |     add = () => {
+> 10 |         this.setState({this.state.count += 1});
+     |                        ^
+  11 |     }
+  12 |     minus = () => {
+  13 |         this.setState({this.state.count -= 1});
+
+ @ ./src/index.js 13:11-27
+
+Compiling...
+Failed to compile.
+
+Error in ./src/App.js
+Syntax error: Unexpected token, expected , (10:29)
+
+   8 |     
+   9 |     add = () => {
+> 10 |         this.setState({count += 1});
+     |                              ^
+  11 |     }
+  12 |     minus = () => {
+  13 |         this.setState({count -= 1});
+
+ @ ./src/index.js 13:11-27
+
+Compiling...
+Failed to compile.
+
+Error in ./src/App.js
+Syntax error: Unexpected token (10:29)
+
+   8 |     
+   9 |     add = () => {
+> 10 |         this.setState({count = 1});
+     |                              ^
+  11 |     }
+  12 |     minus = () => {
+  13 |         this.setState({count = -1});
+
+ @ ./src/index.js 13:11-27
+
+Compiling...
+Compiled successfully!
+Compiling...
+Failed to compile.
+
+Error in ./src/App.js
+
+/home/pi/git/movie_app_2020/src/App.js
+  10:32  error  'count' is not defined  no-undef
+  13:32  error  'count' is not defined  no-undef
+
+✖ 2 problems (2 errors, 0 warnings)
+
+
+Compiling...
+Compiled successfully!
+Compiling...
+Failed to compile.
+
+Error in ./src/App.js
+Syntax error: Unexpected token, expected , (10:31)
+
+   8 |     
+   9 |     add = () => {
+> 10 |         this.setState({current => ({count : current.count + 1}}));
+     |                                ^
+  11 |     }
+  12 |     minus = () => {
+  13 |         this.setState({count : this.state.count - 1});
+
+ @ ./src/index.js 13:11-27
+
+Compiling...
+Failed to compile.
+
+Error in ./src/App.js
+Syntax error: Unexpected token, expected , (10:31)
+
+   8 |     
+   9 |     add = () => {
+> 10 |         this.setState({current => ({count : current.count + 1}}));
+     |                                ^
+  11 |     }
+  12 |     minus = () => {
+  13 |         this.setState({current => ({count : current.count - 1}}));
+
+ @ ./src/index.js 13:11-27
+
+Compiling...
+Failed to compile.
+
+Error in ./src/App.js
+Syntax error: Unexpected token, expected , (10:31)
+
+   8 |     
+   9 |     add = () => {
+> 10 |         this.setState({current => ({count : current.count + 1})});
+     |                                ^
+  11 |     }
+  12 |     minus = () => {
+  13 |         this.setState({current => ({count : current.count - 1})});
+
+ @ ./src/index.js 13:11-27
+
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled successfully!
+Compiling...
+Compiled with warnings.
+
+Warning in ./src/App.js
+
+/home/pi/git/movie_app_2020/src/App.js
+  4:1  warning  Your render method should have return statement  react/require-render-return
+  9:5  warning  Useless constructor                              no-useless-constructor
+
+✖ 2 problems (0 errors, 2 warnings)
+
+
+You may use special comments to disable some warnings.
+Use // eslint-disable-next-line to ignore the next line.
+Use /* eslint-disable */ to ignore all warnings in a file.
+Compiling...
+Compiled with warnings.
+
+Warning in ./src/App.js
+
+/home/pi/git/movie_app_2020/src/App.js
+  4:1  warning  Your render method should have return statement  react/require-render-return
+  8:5  warning  Useless constructor                              no-useless-constructor
+
+✖ 2 problems (0 errors, 2 warnings)
+
+
+You may use special comments to disable some warnings.
+Use // eslint-disable-next-line to ignore the next line.
+Use /* eslint-disable */ to ignore all warnings in a file.
+Compiling...
+Compiled with warnings.
+
+Warning in ./src/App.js
+
+/home/pi/git/movie_app_2020/src/App.js
+  8:5  warning  Useless constructor  no-useless-constructor
+
+✖ 1 problem (0 errors, 1 warning)
+
+
+You may use special comments to disable some warnings.
+Use // eslint-disable-next-line to ignore the next line.
+Use /* eslint-disable */ to ignore all warnings in a file.
+Compiling...
+Failed to compile.
+
+Error in ./src/App.js
+Syntax error: Unexpected token, expected , (6:23)
+
+  4 | class App extends React.Component {
+  5 |     state = {
+> 6 |         isLoading: true;
+    |                        ^
+  7 |     };
+  8 |     
+  9 |     constructor(props) {
+
+ @ ./src/index.js 13:11-27
+
+Compiling...
+Compiled with warnings.
+
+Warning in ./src/App.js
+
+/home/pi/git/movie_app_2020/src/App.js
+  9:5  warning  Useless constructor  no-useless-constructor
+
+✖ 1 problem (0 errors, 1 warning)
+
+
+You may use special comments to disable some warnings.
+Use // eslint-disable-next-line to ignore the next line.
+Use /* eslint-disable */ to ignore all warnings in a file.
+Compiling...
+Compiled with warnings.
+
+Warning in ./src/App.js
+
+/home/pi/git/movie_app_2020/src/App.js
+  9:5  warning  Useless constructor  no-useless-constructor
+
+✖ 1 problem (0 errors, 1 warning)
+
+
+You may use special comments to disable some warnings.
+Use // eslint-disable-next-line to ignore the next line.
+Use /* eslint-disable */ to ignore all warnings in a file.
+Compiling...
+Compiled with warnings.
+
+Warning in ./src/App.js
+
+/home/pi/git/movie_app_2020/src/App.js
+  9:5  warning  Useless constructor  no-useless-constructor
+
+✖ 1 problem (0 errors, 1 warning)
+
+
+You may use special comments to disable some warnings.
+Use // eslint-disable-next-line to ignore the next line.
+Use /* eslint-disable */ to ignore all warnings in a file.
+Compiling...
+Compiled with warnings.
+
+Warning in ./src/App.js
+
+/home/pi/git/movie_app_2020/src/App.js
+  9:5  warning  Useless constructor  no-useless-constructor
+
+✖ 1 problem (0 errors, 1 warning)
+
+
+You may use special comments to disable some warnings.
+Use // eslint-disable-next-line to ignore the next line.
+Use /* eslint-disable */ to ignore all warnings in a file.
+Compiling...
+Compiled with warnings.
+
+Warning in ./src/App.js
+
+/home/pi/git/movie_app_2020/src/App.js
+  9:5  warning  Useless constructor  no-useless-constructor
+
+✖ 1 problem (0 errors, 1 warning)
+
+
+You may use special comments to disable some warnings.
+Use // eslint-disable-next-line to ignore the next line.
+Use /* eslint-disable */ to ignore all warnings in a file.
+Compiling...
+Compiled with warnings.
+
+Warning in ./src/App.js
+
+/home/pi/git/movie_app_2020/src/App.js
+  9:5  warning  Useless constructor  no-useless-constructor
+
+✖ 1 problem (0 errors, 1 warning)
+
+
+You may use special comments to disable some warnings.
+Use // eslint-disable-next-line to ignore the next line.
+Use /* eslint-disable */ to ignore all warnings in a file.
+Compiling...
+Compiled with warnings.
+
+Warning in ./src/App.js
+
+/home/pi/git/movie_app_2020/src/App.js
+  10:5  warning  Useless constructor  no-useless-constructor
+
+✖ 1 problem (0 errors, 1 warning)
+
+
+You may use special comments to disable some warnings.
+Use // eslint-disable-next-line to ignore the next line.
+Use /* eslint-disable */ to ignore all warnings in a file.
+Compiling...
+Compiled with warnings.
+
+Warning in ./src/App.js
+
+/home/pi/git/movie_app_2020/src/App.js
+   2:8  warning  'axios' is defined but never used  no-unused-vars
+  11:5  warning  Useless constructor                no-useless-constructor
+
+✖ 2 problems (0 errors, 2 warnings)
+
+
+You may use special comments to disable some warnings.
+Use // eslint-disable-next-line to ignore the next line.
+Use /* eslint-disable */ to ignore all warnings in a file.
+Compiling...
+Compiled with warnings.
+
+Warning in ./src/App.js
+
+/home/pi/git/movie_app_2020/src/App.js
+  11:5  warning  Useless constructor  no-useless-constructor
+
+✖ 1 problem (0 errors, 1 warning)
+
+
+You may use special comments to disable some warnings.
+Use // eslint-disable-next-line to ignore the next line.
+Use /* eslint-disable */ to ignore all warnings in a file.
+Compiling...
+Compiled with warnings.
+
+Warning in ./src/App.js
+
+/home/pi/git/movie_app_2020/src/App.js
+  11:5  warning  Useless constructor  no-useless-constructor
+
+✖ 1 problem (0 errors, 1 warning)
+
+
+You may use special comments to disable some warnings.
+Use // eslint-disable-next-line to ignore the next line.
+Use /* eslint-disable */ to ignore all warnings in a file.
+Compiling...
+Compiled with warnings.
+
+Warning in ./src/App.js
+
+/home/pi/git/movie_app_2020/src/App.js
+  11:5  warning  Useless constructor  no-useless-constructor
+
+✖ 1 problem (0 errors, 1 warning)
+
+
+You may use special comments to disable some warnings.
+Use // eslint-disable-next-line to ignore the next line.
+Use /* eslint-disable */ to ignore all warnings in a file.

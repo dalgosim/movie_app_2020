@@ -1,21 +1,63 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import axios from 'axios';
+// import PropTypes from 'prop-types';
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
-        </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
-    );
-  }
+class App extends React.Component {
+    state = {
+        isLoading: true,
+        movies: [],
+    };
+    
+    constructor(props) {
+        //생성자
+        super(props);
+    }
+    
+    componentDidMount() {
+        //처음 render 후
+        axios.get('https://yts-proxy.now.sh/list_movies.json');
+        setTimeout(() => {
+            this.setState({ isLoading: false });
+        }, 2000);
+    }
+    
+    componentDidUpdate() {
+        //매번 render 후
+    }
+    
+    render() {
+        //매번 그려질때
+        const {isLoading} = this.state;
+        return <div> {isLoading ? 'Loading...' : 'We are ready'} </div>;
+    }
 }
+
+
+
+// function Food({name, picture, rating}){
+//     return (
+//         <div>
+//             <h3>I like {name}</h3>
+//             <h4>{rating}/5.0</h4>
+//             <img src={picture} alt={name}/>
+//         </div>
+//     )
+// }
+
+// function App() {
+//     return (
+//         <div>
+//             <h1>Hello</h1>
+//             {foodILike.map(dish => (<Food key={dish.id} name={dish.name} picture={dish.image} rating={dish.rating}/>))}
+//         </div>
+//     );
+// }
+
+// Food.propTypes = {
+//     name: PropTypes.string.isRequired,
+//     picture: PropTypes.string.isRequired,
+//     rating: PropTypes.number.isRequired,
+// };
+
 
 export default App;
