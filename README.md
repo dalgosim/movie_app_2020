@@ -23,7 +23,16 @@ $ brew install node
   * https://yts.mx/api/v2/movie_details.json?movie_id=10
 
 
-## deploy
+## how to run
+#### 처음 패키지 설치
+```
+$ npm install
+```
+#### 앱 실행
+```
+$ npm start
+```
+#### 배포
 ```
 # package.json에서 homepage 경로 설정
 $ npm run deploy
