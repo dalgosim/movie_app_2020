@@ -1,6 +1,7 @@
 # Movie App 2020
 
 React JS Fundamentals Course 2020
+demo : https://dalgosim.github.io/movie_app_2020
 
 ## Install
 ### nodejs/npm
@@ -13,6 +14,7 @@ $ brew install node
 * prop-types
 * axios
 * react-router-dom
+* gh-pages
 
 ### Movie API
 * github.com/serranoarevalo/yts-proxy
