@@ -20,3 +20,10 @@ $ brew install node
 * github.com/serranoarevalo/yts-proxy
   * https://yts-proxy.now.sh/list_movies.json
   * https://yts.mx/api/v2/movie_details.json?movie_id=10
+
+
+## deploy
+```
+# package.json에서 homepage 경로 설정
+$ npm run deploy
+```
