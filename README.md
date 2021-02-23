@@ -12,6 +12,7 @@ $ brew install node
 * npx
 * prop-types
 * axios
+* react-router-dom
 
 ### Movie API
 * github.com/serranoarevalo/yts-proxy
